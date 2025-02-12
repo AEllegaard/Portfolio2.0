@@ -1,47 +1,25 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import homeview from './components/homeview.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <header class="flex w-full">
+    <div class="d">
+      <button></button>
+      <button></button>
+    </div>
+    <div class="h-12 bg-linear-to-t from-grey-200 to-grey-100 flex items-center justify-end px-9 w-full">
+      <button class="bg-linear-to-t from-grey-300 to-grey-100 drop-shadow-sm px-4 m-4 rounded-md">About</button>
+      <button class="bg-linear-to-t from-grey-300 to-grey-100 drop-shadow-sm px-4 m-4 rounded-md">Work</button>
+      <button class="bg-linear-to-t from-grey-300 to-grey-100 drop-shadow-sm px-4 ml-4 rounded-md">Contact</button>
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <homeview />
   </main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<style>
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
