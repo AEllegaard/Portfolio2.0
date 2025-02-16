@@ -1,12 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Satoshi", "sans-serif";
+  --font-display: "Helvetica", "sans-serif";
+  --text-96: 5.5rem;
   --breakpoint-3xl: 1920px;
   --color-grey-100: #F5F7F7; 
   --color-grey-200: #DFDFDF;  
   --color-grey-300: #F1F1F1;  
   --color-back-100: #F5F5F5;
+  --color-red-100:  #FE5F58;
+  --color-red-200:  #EE534A;
   --color-green-100: #46FB47;
+  --color-green-200: #28C840;
+  --color-green-300: #1EAA27;
+  --color-yellow-100: #FFBC30;
+  --color-yellow-200: #EAA92E;
   /* ... */
 }
+
