@@ -8,7 +8,7 @@ import contactview from './components/contactview.vue'
 </script>
 
 <template>
-  <header class="flex w-full bg-linear-to-t from-grey-200 to-grey-100">
+  <header class="flex w-full bg-linear-to-t from-grey-200 to-grey-100 sticky top-0 z-50">
     <div class="flex items-center">
       <button class="bg-red-100 border-red-200 border-1 rounded-full w-3 h-3 ml-2"></button>
       <button class="bg-yellow-100 border-yellow-200 border-1 rounded-full w-3 h-3 ml-2"></button>
